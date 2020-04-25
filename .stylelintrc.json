@@ -1,0 +1,33 @@
+{
+  "extends": "stylelint-config-standard",
+  "defaultSeverity": "error",
+  "rules": {
+    "block-closing-brace-newline-after": "always",
+    "block-no-empty": true ,
+    "color-no-invalid-hex": true,
+    "color-hex-case": "lower",
+    "color-named": "never",
+    "comment-no-empty": true,
+    "comment-empty-line-before": "always",
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-block-trailing-semicolon": "always",
+    "no-duplicate-selectors": true,
+    "no-eol-whitespace": true,
+    "no-empty-first-line": true,
+    "unit-no-unknown": true,
+    "property-no-unknown": true,
+    "rule-empty-line-before": "always-multi-line",
+    "selector-pseudo-class-no-unknown": true,
+    "selector-type-no-unknown": true,
+    "string-quotes": "double",
+    "indentation": [
+      2,
+      {
+        "except": ["block"],
+        "message": "Please use 2 spaces for indentation."
+      }
+    ]
+  }
+}

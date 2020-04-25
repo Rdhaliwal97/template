@@ -1,0 +1,22 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "boilerplate using node, express, parcel, esLint, styleLint, express Router, folder structure and branches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rdhaliwal97/template.git"
+  },
+  "author": "Manpreet Singh <rdhaliwal97@outlook.com> (https://github.com/rdhaliwal97)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rdhaliwal97/template/issues"
+  },
+  "homepage": "https://github.com/Rdhaliwal97/template#readme",
+  "devDependencies": {
+    "stylelint": "^13.3.3"
+  }
+}
